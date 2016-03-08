@@ -404,7 +404,7 @@ public class GeoPaparazziActivity extends Activity {
             });
             return;
         }
-        setContentView(R.layout.geopap_main);
+        setContentView(R.layout.geoalert_main);
 
         final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         GPLogPreferencesHandler.checkLog(preferences);
